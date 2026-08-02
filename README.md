@@ -25,11 +25,11 @@ Understand how Burp Suite intercepts, modifies, forwards, and drops HTTP request
 ## Activities Performed
 
 - Configured Burp Suite as an intercepting proxy.
-- Intercepted HTTP GET requests.
+- Intercepted GET and POST HTTP requests.
 - Forwarded intercepted requests.
 - Dropped HTTP requests.
-- Modified intercepted HTTP requests.
-- Analyzed HTTP request and response communication.
+- Modified intercepted HTTP requests before forwarding them to the web server.
+- Reviewed HTTP History to analyze GET requests used for page navigation and POST requests used for user authentication within DVWA.
 
 ## Skills Demonstrated
 
